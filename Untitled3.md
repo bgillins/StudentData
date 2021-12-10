@@ -35,7 +35,7 @@ def strip_math(col):
 
 
 ```python
-df12_08 = r'C:\Users\brand\Documents\School Data\Report 12_08.xlsx'
+df12_08 = r'filename'
 ```
 
 
@@ -44,9 +44,6 @@ period_1a = pd.read_excel(df12_08, '1(A) Secondary Mathematics 2')
 period_4a = pd.read_excel(df12_08, '4(A) Secondary Mathematics 2')
 period_7a = pd.read_excel(df12_08, '7(A) Secondary Mathematics 2')
 ```
-
-    C:\Users\brand\anaconda3\lib\site-packages\openpyxl\styles\stylesheet.py:221: UserWarning: Workbook contains no default style, apply openpyxl's default
-      warn("Workbook contains no default style, apply openpyxl's default")
     
 
 ## Cleaning Data
@@ -128,7 +125,7 @@ math_2.rename(columns={'Unnamed: 0': 'Student Name'}, inplace=True)
 
 
 ```python
-df11_30= r'C:\Users\brand\Documents\School Data\Report 11_30.xlsx' 
+df11_30= r'filename_2' 
 period_1a_old = pd.read_excel(df11_30, '1(A) Secondary Mathematics 2')
 period_4a_old = pd.read_excel(df11_30, '4(A) Secondary Mathematics 2')
 period_7a_old = pd.read_excel(df11_30, '7(A) Secondary Mathematics 2')
@@ -182,7 +179,7 @@ math_2_old = group_classes_together(period_1a_old, period_4a_old, period_7a_old)
 
 
 ```python
-csv = r'C:\Users\brand\Documents\School Data\nov_student_report'
+csv = r'cbs_filename'
 grades_csv = pd.read_csv(csv)
 ```
 
