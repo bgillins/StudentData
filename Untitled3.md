@@ -105,9 +105,6 @@ math_2['Low Scores_3'] = low_scores(math_2, math_2_assignments)
 math_2['Missing Assignments_3'] = missing_assignments(math_2, math_2_assignments)
 ```
 
-    NumExpr defaulting to 8 threads.
-    
-
 
 ```python
 #drop all assignments
@@ -130,11 +127,6 @@ period_1a_old = pd.read_excel(df11_30, '1(A) Secondary Mathematics 2')
 period_4a_old = pd.read_excel(df11_30, '4(A) Secondary Mathematics 2')
 period_7a_old = pd.read_excel(df11_30, '7(A) Secondary Mathematics 2')
 ```
-
-    C:\Users\brand\anaconda3\lib\site-packages\openpyxl\styles\stylesheet.py:221: UserWarning: Workbook contains no default style, apply openpyxl's default
-      warn("Workbook contains no default style, apply openpyxl's default")
-    
-
 
 ```python
 column_names_11_30 = list(period_1a_old.columns)
